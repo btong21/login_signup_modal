@@ -1,0 +1,16 @@
+<form>
+  <div class="form-group">
+    <label for="username">Username</label>
+    <input type="text" class="form-control" id="username" placeholder="Username" ng-model="ctrl.username">
+  </div>
+  <div class="form-group">
+    <label for="password">Password</label>
+    <input type="password" class="form-control" id="password" placeholder="Password" ng-model="ctrl.password">
+  </div>
+
+  <div class="text-center">
+    <button type="button" class="btn btn-default btn-lg" ng-click="ctrl.createAccount()">Create account</button>
+    <button type="submit" class="btn btn-primary btn-lg" ng-click="ctrl.login()">Login</button>
+  </div>
+
+</form>
